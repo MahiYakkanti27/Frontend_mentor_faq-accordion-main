@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background-pattern-desktop.svg');
+    background-size: 100% auto;
+    background-color: hsl(275, 100%, 97%); /* Yellow background */
+    background-repeat: no-repeat;
+    margin: 0%; 
+    font-family: "Work Sans", sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    margin-top: 15%;
+    background-color: white;
+    border-radius: 15px;
+    width: 50%;
+}
+.hidden{
+    display: none;
+}
+h1{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+h1 img{
+    width: 20%;
+}
+.start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main{
+    margin: 5%;
+}
+.start2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.start3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.start4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main img:hover{
+    cursor: pointer;
+}
+h1,h3{
+    color: hsl(292, 42%, 14%);
+}
+h3{
+    font-weight: 600;
+}
+h3:hover{
+    cursor: pointer;
+    color: rgb(129, 16, 149);
+}
+p1{
+    color: hsl(292, 16%, 49%);
+    font-weight: 400;
+}
